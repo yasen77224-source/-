@@ -140,8 +140,6 @@ async function connectBluetooth() {
         alert("Bluetooth Connection Failed");
     }
 }
-
-// بيانات تجريبية
 setInterval(() => {
     document.getElementById("temp").innerHTML =
         (20 + Math.floor(Math.random()*10)) + "°C";
